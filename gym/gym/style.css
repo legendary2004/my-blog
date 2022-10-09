@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-light {
+    background-color: #49d404 !important;
+}
+
+.navbar-brand {
+    margin-left: 25px;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+}
+
+.nav-link:hover {
+    color: aqua;
+    transition: 0.5s;
+}
+
+.carousel-item {
+    height: 800px !important;
+}
+
+.kutia {
+    width: auto;
+    background-color: #49d404 !important;
+    height: 15px;
+}
+
+.h-2 {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.clearfix {
+    background-color: #9aa194;
+}
+
+.s-1 {
+    background-color: #141713;
+}
+
+p {
+    padding: 10px;
+}
+
+h4 {
+    text-align: center;
+    color: #49d404;
+}
+
+.img1 {
+    padding-top: 10px;
+}
+
+.img-2 {
+    width: 400px !important;
+    height: 284px !important;
+}
+
+h3 {
+    text-align: center;
+    color: #03ab28;
+}
+
+.card-body {
+    background-color: #9aa194;
+}
+
+.list-group-item {
+    background: none !important;
+}
+
+.btn-primary {
+    background: #49d404 !important;
+    border: 1px solid #49d404 !important;
+    border-radius: 15px !important;
+}
+
+.btn-primary:hover {
+    background-color: #029e38 !important;
+    transition: 0.5s;
+}
+
+.back {
+    background: url("image/pay.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+}
+
+.chnge {
+    padding-top: 280px;
+}
+
+.fas {
+    margin-left: 15px !important;
+}
+
+.fab:hover {
+    color: aqua;
+    transition: 0.5s;
+}

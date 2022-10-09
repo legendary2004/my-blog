@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery-3.6.1.js"></script>
+        <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+        <script src="https://randojs.com/2.0.0.js"></script>
+        </head>
+    <body>
+        <div id="rouletteContainer">
+            
+            <div id="roulette" class="roulette"><div class="arrow"></div></div>
+          
+               
+              
+            <div class="progress" id=time></div>
+            
+            <div id="result"></div>
+            
+            <div id="money"></div>
+            <input type="number" placeholder="Bet size" id=betInput min="1"><br>
+            <div class="bet">
+              <button class="betBtn redBtn" onclick='bet("r",this);'>Red</button>
+            </div>
+            <div class="bet">
+              <button class="betBtn greenBtn" onclick='bet("g",this);'>Green</button>
+            </div>
+            <div class="bet">
+              <button class="betBtn blackBtn" onclick='bet("b",this);'>Black</button>
+            </div>
+          </div>
+          <div id="chat"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
